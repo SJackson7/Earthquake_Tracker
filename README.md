@@ -22,5 +22,5 @@ Please note that due to an error while loading the tectonic plate JSON data from
 #### Satelite View with Earthquakes Only
 ![image](https://user-images.githubusercontent.com/104914008/193714476-d849ac70-6c66-4dcb-8a47-66c906b60aaf.png)
 
-#### Satelite View Showing Earthquake Data
+#### Satelite View Showing Earthquake Data with Popup
 ![image](https://user-images.githubusercontent.com/104914008/193714849-3a729f23-0ecb-400e-a113-c2a5939479ac.png)
