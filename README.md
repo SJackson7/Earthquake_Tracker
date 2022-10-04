@@ -8,3 +8,7 @@
 
 #### Dark Mode with Tectonic Plates
 ![image](https://user-images.githubusercontent.com/104914008/193714419-2db78c9b-f4dc-42f6-98ba-83f6ab97c948.png)
+
+#### Satelite View with Earthquakes Only
+![image](https://user-images.githubusercontent.com/104914008/193714476-d849ac70-6c66-4dcb-8a47-66c906b60aaf.png)
+
