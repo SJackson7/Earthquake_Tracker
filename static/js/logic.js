@@ -6,21 +6,21 @@ var plate_data = 'static/js/plate_data.json'
 let light = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-    accessToken: 'pk.eyJ1Ijoic2phY2tzb25kYWM3NzciLCJhIjoiY2w4a2hpOWw2MDB3bTNvbG9oZ3h4dHY5NyJ9.BQzDGDUI9X6H7kCMyu7myQ'
+    //accessToken: API_KEY removed for security
 });
 
 // layer option 2: dark mode
 let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-    accessToken: 'pk.eyJ1Ijoic2phY2tzb25kYWM3NzciLCJhIjoiY2w4a2hpOWw2MDB3bTNvbG9oZ3h4dHY5NyJ9.BQzDGDUI9X6H7kCMyu7myQ'
+    //accessToken: API_KEY removed for security
 });
 
 // layer option 3: satelite street mode
 let satelite = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-    accessToken: 'pk.eyJ1Ijoic2phY2tzb25kYWM3NzciLCJhIjoiY2w4a2hpOWw2MDB3bTNvbG9oZ3h4dHY5NyJ9.BQzDGDUI9X6H7kCMyu7myQ'
+    //accessToken: API_KEY removed for security
 });
 
 // create the map object with center, zoom level and default layer.
